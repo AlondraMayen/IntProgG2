@@ -1,9 +1,8 @@
-// Calcular el area del circulo
-// a = 3.1416 * r * r
-Algoritmo Areacirculo
-	Definir radio, area Como Real
-	Escribir 'Introduzca radio '
-	Leer radio
-	area <- 3.1416*(radio*radio)
-	Escribir 'El area del circulo es de: ', area
+Algoritmo AreaCirculo
+	Definir radio, area, numeropi  Como Real
+    numeropi = 3.14
+    Escribir "Ingrese el radio del círculo: "
+    Leer radio
+    area = pi * radio^2
+    Escribir "El área del círculo es: ", area
 FinAlgoritmo
